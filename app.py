@@ -4,8 +4,8 @@ import streamlit.components.v1 as components
 class LoginApp:
     def __init__(self):
         # Credenciales
-        self.usuario_correcto = "MDH.2026_G"
-        self.password_correcto = "Mdh.2026"
+        self.usuario_correcto = "FABRY"
+        self.password_correcto = "12345"
         self.iframe_pbi = 'https://app.powerbi.com/view?r=eyJrIjoiOTI0OWE3YWUtYjE0OS00ZDkzLTg4ZjctNTRkMTg3ZDJhMmQ2IiwidCI6Ijc3NzI5YjA5LTRjNjQtNDc4MC1iZmJiLTE3YmFlMGU0Y2RmNyJ9'
 
     def aplicar_estilos_ios(self):
